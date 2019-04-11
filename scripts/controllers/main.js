@@ -15,11 +15,11 @@ angular.module('todoListApp')
     
     $scope.todos = [
         {"name": "Feed the Dog"},
-        {"name": "Pet the Dog"},
-        {"name": "Play with the Dog"},
-        {"name": "Tell the Dog you Love him"},
-        {"name": "Hold the Dog Untill he Barks"},
-        {"name": "Say hi to Husband"}
+        {"name": "Water the Plants"},
+        {"name": "Make a Todo List"},
+        {"name": "Clean the Car"},
+        {"name": "Order Take Out"},
+        {"name": "Walk the Dog"}
     ];
 
     $scope.deleteTodo = function(todo, $index) {
